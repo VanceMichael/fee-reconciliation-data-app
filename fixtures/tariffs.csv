@@ -1,0 +1,7 @@
+rule,fee,basis,from_day,to_day,category,rate_ppm,tier_cents,rate_after_ppm
+U1,service,trade,1,20,standard,3800,200000,2300
+U2,service,trade,21,80,standard,3100,200000,1900
+U3,service,trade,21,80,green,0,200000,0
+U4,settle,settlement,1,20,standard,2700,200000,1900
+U5,settle,settlement,21,80,standard,2100,200000,1700
+U6,settle,settlement,21,80,green,0,200000,0

@@ -1,0 +1,7 @@
+rule,baseline_rate_ppm,baseline_after_ppm,rounding
+U1,3800,2300,cent
+U2,3800,2300,cent
+U3,3800,2300,cent
+U4,2700,1900,cent
+U5,2700,1900,cent
+U6,2700,1900,cent

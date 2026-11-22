@@ -1,0 +1,4 @@
+bill,cycle,group,subaccount,charged_cents,issue_day,state
+B1,1,G1,A,1211,27,issued
+B2,1,G1,B,516,27,issued
+B3,1,G2,C,0,27,issued

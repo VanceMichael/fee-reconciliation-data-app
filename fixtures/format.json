@@ -1,0 +1,95 @@
+{
+  "tables": {
+    "tariffs": [
+      "rule",
+      "fee",
+      "basis",
+      "from_day",
+      "to_day",
+      "category",
+      "rate_ppm",
+      "tier_cents",
+      "rate_after_ppm"
+    ],
+    "activity": [
+      "entry",
+      "group",
+      "subaccount",
+      "trade_day",
+      "settle_day",
+      "category",
+      "face_cents",
+      "kind",
+      "related",
+      "record_day"
+    ],
+    "classification": [
+      "proof",
+      "entry",
+      "confirmed_cents",
+      "category",
+      "accepted_day"
+    ],
+    "bills": [
+      "bill",
+      "cycle",
+      "group",
+      "subaccount",
+      "charged_cents",
+      "issue_day",
+      "state"
+    ],
+    "credits": [
+      "credit",
+      "bill",
+      "cents",
+      "state",
+      "day"
+    ],
+    "cycles": [
+      "cycle",
+      "first_day",
+      "last_day",
+      "baseline_policy_day",
+      "current_policy_day"
+    ],
+    "policy-basis": [
+      "rule",
+      "baseline_rate_ppm",
+      "baseline_after_ppm",
+      "rounding"
+    ]
+  },
+  "links": [
+    [
+      "classification",
+      "entry",
+      "activity",
+      "entry"
+    ],
+    [
+      "credits",
+      "bill",
+      "bills",
+      "bill"
+    ],
+    [
+      "policy-basis",
+      "rule",
+      "tariffs",
+      "rule"
+    ],
+    [
+      "bills",
+      "cycle",
+      "cycles",
+      "cycle"
+    ],
+    [
+      "activity",
+      "related",
+      "activity",
+      "entry"
+    ]
+  ]
+}
