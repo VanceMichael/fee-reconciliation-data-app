@@ -8,6 +8,11 @@
   },
   "scripts": {
     "test": "node --test",
-    "check:materials": "node tools/check-materials.mjs"
+    "check:materials": "node tools/check-materials.mjs",
+    "bill:report": "node tools/accounting-cli.mjs report",
+    "bill:decompose": "node tools/accounting-cli.mjs decompose",
+    "bill:reconcile": "node tools/accounting-cli.mjs reconcile",
+    "bill:review": "node tools/accounting-cli.mjs review",
+    "bill:close": "node tools/accounting-cli.mjs close"
   }
 }
